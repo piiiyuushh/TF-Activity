@@ -16,7 +16,7 @@ They’ve handed it to you to audit, repair, and upgrade under time pressure.
 
 - Can you find every hidden bug and pass the audit? 🕵️‍♀️ 
 
-##  How It Works
+##  🗂️ How It Works
 
 - **Open each file in this repo online** and carefully read the code.  
 - Look for **misconfigurations, security flaws, naming issues, and best-practice violations**.  
@@ -24,7 +24,7 @@ They’ve handed it to you to audit, repair, and upgrade under time pressure.
 
 ---
 
-## Objective
+## 🎯 Objective
 
 This treasure hunt is designed to assess how effectively participants can apply everything they’ve learned during the Terraform at Scale sessions 🎯
 
