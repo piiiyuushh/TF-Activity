@@ -5,7 +5,7 @@ Inside this repository you’ll find **intentionally broken** Terraform code and
 Your job: **find the problems, fix them, and submit your answers**.
 
 ---
-## Senario
+## Scenario
 Your client initially ran everything in a single AWS account. They now want an enterprise-grade setup to support multiple teams and environments. You’ve been given a legacy Terraform repo that “works” but fails audits and SRE expectations. Your job: in 30 minutes identify all problems  and propose fixes. You will be graded on coverage, correctness, and quality of proposed fixes.
 
 ##  How It Works
