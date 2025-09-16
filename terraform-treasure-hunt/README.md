@@ -1,12 +1,12 @@
 # 🗺️ Terraform Treasure Hunt
 
 Welcome to the **Terraform Treasure Hunt** — a hands-on quiz designed to test your Terraform, AWS, and DevOps skills.  
-Inside this repository you’ll find **intentionally broken** Terraform code and unusual configurations.  
+Inside this repository you’ll find **broken** Terraform code and unusual configurations.  
 Your job: **find the problems, List Down, and submit your answers**.
 
 ---
 ## 📝 The Scenario
-- You have 20 minutes for completing this activity.
+- You have **20 minutes** for completing this activity.
 
 Here's the scenario for the activity:- 
 
@@ -69,5 +69,4 @@ You’re about to embark on a Terraform adventure where every line of code hides
 Grab your map 🗺️, trust your instincts 🧭, and may the best DevOps Ninja win 🥇.
 
 
-## 
 
