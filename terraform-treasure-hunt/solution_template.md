@@ -23,4 +23,4 @@
 
 
 > ⏱️ Submit this filled file via the form.  
-> Best of luck, DevOps Ninja! 🏆
+> Best of luck, DevOps! 🏆
