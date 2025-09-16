@@ -1,26 +1,16 @@
 resource "aws_iam_user" "developer" {
-  name = "dev-user"   
-  path = "/"
- force_destroy = true        
+  name          = var.developer_user_name
+  path          = var.developer_user_path
+  force_destroy = var.force_destroy_user
 }
 
 resource "aws_iam_user_policy" "dev_policy" {
-  name = "dev-policy"
-  user = aws_iam_user.developer.name
-  policy = <<EOF
-{
-  "Version": "2012-10-17",
-  "Statement": [{
-    "Effect":"Allow",
-    "Action":"*",
-    "Resource":"*"
-  }]
-}
-EOF
+  name   = var.developer_policy_name
+  user   = aws_iam_user.developer.name
+  policy = var.developer_policy_json
 }
 
 resource "aws_iam_access_key" "dev_key" {
-  user = aws_iam_user.developer.name
-  pgp_key = "none"                    
-
+  user    = aws_iam_user.developer.name
+  pgp_key = var.pgp_key
 }

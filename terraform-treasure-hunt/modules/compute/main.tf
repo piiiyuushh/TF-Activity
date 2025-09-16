@@ -1,7 +1,7 @@
 resource "aws_instance" "db" {
-  ami = "ami-0abc12345deadbeef"   
-  instance_type = "t2.micro"
-  associate_public_ip_address = true  
+  ami                         = var.db_ami
+  instance_type               = var.db_instance_type
+  associate_public_ip_address = var.db_public_ip
   tags = {
     Name = "database"
   }
@@ -12,8 +12,8 @@ EOF
 }
 
 resource "aws_instance" "app" {
-  count = 1
-  ami = "ami-0abc12345deadee"
-  instance_type = "t3.medium"
-  security_groups = [aws_security_group.open.id]
+  count           = var.app_instance_count
+  ami             = var.app_ami
+  instance_type   = var.app_instance_type
+  security_groups = [var.open_sg_id]
 }

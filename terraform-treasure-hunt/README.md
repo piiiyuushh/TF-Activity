@@ -1,12 +1,18 @@
-# Terraform Treasure Hunt 🗺️
+# 🗺️ Terraform Treasure Hunt
 
 Welcome to the **Terraform Treasure Hunt** — a hands-on quiz designed to test your Terraform, AWS, and DevOps skills.  
 Inside this repository you’ll find **intentionally broken** Terraform code and unusual configurations.  
-Your job: **find the problems, fix them, and submit your answers**.
+Your job: **find the problems, List Down, and submit your answers**.
 
 ---
-## Scenario
-Your client initially ran everything in a single AWS account. They now want an enterprise-grade setup to support multiple teams and environments. You’ve been given a legacy Terraform repo that “works” but fails audits and SRE expectations. Your job: in 30 minutes identify all problems  and propose fixes. You will be graded on coverage, correctness, and quality of proposed fixes.
+## 📝 The Story
+- You have 15 minutes.
+
+Your client started with a single AWS account and one Terraform file.
+Now they want an enterprise-grade, multi-team, multi-environment setup — but the old repo is riddled with mistakes.
+They’ve handed it to you to audit, repair, and upgrade under time pressure.
+
+- Can you find every hidden bug and pass the audit?
 
 ##  How It Works
 
@@ -22,22 +28,26 @@ Each file hides **multiple mistakes**. There are **no explicit hints**; discover
 
 ---
 
-## 🚀 Submission
-
-When you’re ready:
-
-1. Open the submission form (link in `SUBMISSION.md` or sent separately).  
-2. Enter your **email address** and your **answers**.  
-3. Submit before the deadline to get scored.
-
----
 
 
+## 🧠 Mindset
 
-## 🔍 Tip
+Think like:
 
-Pay attention to **every line**. Even small details  may hide mistakes.
+- a Security Auditor
 
----
+- a Cloud Architect
 
-Good luck hunting down all the misconfigurations! 🔎
+- a Terraform Guru
+
+Every misstep is a clue.
+Every variable or hard-coded value could be a red flag.
+
+## 🏴‍☠️ Good Luck, Treasure Hunter!
+
+You’re about to embark on a Terraform adventure where every line of code hides a secret.
+Grab your map, trust your instincts, and may the best DevOps Ninja win. 🏹
+
+
+
+
